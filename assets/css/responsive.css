@@ -1,0 +1,296 @@
+@media screen and (max-width: 992px) {
+     .gx-3 {
+        --bs-gutter-x: 2rem;
+    }
+    .header-content h2{
+        font-size: 90px;
+        line-height: 90px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .single-about {
+        margin-left: 0px !important;
+    }
+    .single-about h3 {
+        font-size: 36px;  
+    }
+    .single-expertise {
+        min-height: 290px;
+       
+    }
+    .single-expertise.first {
+        background-size: 190px !important;
+      }
+    
+    .single-expertise {
+    background-size: 240px !important;
+  }
+    .single-testimonial .content {
+        font-size: 30px;
+        line-height: 33px; 
+    }
+    .contact-info {
+        margin-left: 30px;
+    }
+   
+    .contact-info h3 {
+        font-size: 34px;
+        line-height: 41px;
+    }
+    .single-testimonial span {
+        font-size: 40px;
+        position: absolute;
+        top: 1px;
+        left: -14px;
+      }
+     
+   
+   
+        
+}
+@media screen and (max-width: 768px) {
+  
+    .pb-100 {
+        padding-bottom:  50px !important;
+    }
+    .pt-100{
+        padding-top:  50px !important;
+    }
+    .header-content h2{
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .expertise-area h3 {
+        font-size: 51px; 
+    }
+    .about-area .single-about {
+        margin-top: 50px;
+        text-align: left;
+        margin-left: 0;
+    }
+    /*.tab_d{
+        align-items: center;
+    }*/
+    .about-area .row:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .about-area .row{
+        flex-direction: column;
+    }
+    .tab_col{
+        width: 100%;
+    }
+    .single-testimonial .designation {
+        font-size: 23px;
+    }
+    .single-testimonial span {
+        font-size: 42px !important;
+        position: absolute;
+        top: 3px;
+        left: -20px !important;
+    }
+    .contact-info {
+        color: #fff;
+        margin-left: 0px;
+    }
+    .contact-info h3 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+       
+    }
+    .f_contacts{
+        align-items: center;
+    }
+    
+    .slick-prev.slick-arrow {
+        left: -40px;
+      }
+      .slick-next.slick-arrow {
+        right: -40px;
+      }
+      .responsive__50{
+        width: 50% !important;
+      }
+      .responsive__20{
+        width: 20% !important;
+      }
+    .responsive__30{
+        width: 30% !important;
+      }
+   
+   
+}
+@media screen and (max-width: 576px) {
+    section {
+        padding: 40px 4%;
+        overflow-x:hidden;
+    }
+    .header-area {
+        padding-bottom: 50px;
+    }
+    .about-area {
+        padding-bottom: 0px;
+    }
+    .header-content {
+        
+        margin-top: 70px;
+    }
+    .logo-area img, .footer-left img {
+        max-width: 170px;
+        display: block;
+    }
+    .nocolumn{
+        display: none;
+    }
+    p{
+        font-size: 16px;
+    }
+    .header-content p {
+        max-width: 802px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+    .header-content h2 {
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .expertise-area{
+        padding-top: 54px;
+    }
+    .expertise-area h3 {
+        font-size: 45px;
+    }
+    .expertise-area h3 {
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+
+    .single-testimonial .content {
+        font-size: 20px !important;
+        line-height: 33px;
+    }
+    .single-testimonial .designation {
+        font-size: 18px !important;
+    }
+    .single-testimonial span {
+        font-size: 36px;
+        position: absolute;
+        top: -2px;
+        left: -12px;
+        
+        
+    }
+    .contact-info {
+        color: #fff;
+         margin-left: 0px;
+        margin-top: 50px;
+    }
+    .contact-info h3 {
+        font-size: 30px;
+        line-height: 34px !;
+        margin-bottom: 30px;
+    }
+    .footer-right {
+        margin-top: 40px;
+    }
+    .single-testimonial .designation {
+        font-size: 23px;
+    }
+
+    .contact-info h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-info .mail a {
+        color: #fff !important;
+        font-size: 15px;
+    }
+    .single-about h3 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .nocolumn{
+        display: none;
+    }
+    .single-about p {
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header-content h2 {
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    .header-content p {
+        max-width: 802px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .button {
+        font-size: 16px;
+    }
+    .single-expertise {
+        background-size: 220px !important;
+    }
+    .single-expertise h4 {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+        margin: 60px 0 30px;
+        min-height: 40px;
+    }
+    .contact-info .address {
+        margin-top: 70px;
+    }
+    .footer-area,
+    .contact-area {
+        padding: 50px 0;
+    }
+    .footer-area p {
+        font-size: 16px;
+    }
+
+    .privacy .single-about h3 {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 100%;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    .slick-arrow {
+       
+        display: none !important;
+    }
+    .lady_image{
+        width: 70% !important;
+    }
+    .responsive__50{
+        width: 65%!important;
+    }
+     .responsive__20{
+        width: 5%!important;
+    }
+    .responsive__30{
+        width: 30%!important;
+    }
+    .last{
+        margin-left: 12px !important;
+    }
+
+}

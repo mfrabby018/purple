@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.pt-40{
+    padding-top: 40px
+}
+.pb-40{
+    padding-bottom: 40px
+}
+.pt-100{
+    padding-top: 100px
+}
+.pb-100{
+    padding-bottom: 100px
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.button{
+    display: inline-block;
+    background-color: #3F1886;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+.g-5, .gx-5 {
+	--bs-gutter-x: 5rem !important;
+}
+.logo-area img,
+.footer-left img  {
+	max-width: 234px;
+	display: block;
+}
+.footer-left img {
+    margin-bottom: 30px;
+}
+.header-area{
+    background-color: #8A48DD;
+    color: #fff;
+}
+.header-area h1{
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h2{
+    font-size: 140px;
+    line-height: 126px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.header-content p {
+	max-width: 476px; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height:22px;
+    letter-spacing: -0.05em;
+	margin: 25px 0;
+}
+.header-content .button{
+    margin-top: 30px;
+}
+
+.header-content .button:hover{
+    color: #fff;
+}
+.about-area{
+    background-color: #3F1886;
+}
+.about-area .row{
+    margin-bottom: 100px;
+}
+.single-about{
+margin-left: 40px;
+}
+.single-about h3 {
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 100%;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+.single-about p{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.expertise-area h3{
+    text-align: center;
+    font-size: 64px;
+    color: #8A48DD;;
+    margin-bottom: 100px;
+    letter-spacing: -0.05em
+}
+.single-expertise {
+	background-color: #fff;
+	padding-bottom: 5px;
+	min-height: 281px;
+	border-bottom: 2px solid black;
+	margin-bottom: 70px;
+}
+.single-expertise span{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+.single-expertise h4 {
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	color: #000000;
+	margin: 60px 0 30px;
+	min-height: 66px;
+}
+.single-expertise p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.single-expertise.first {
+    background-size: 190px !important;
+  }
+
+.single-expertise {
+background-size: 240px !important;
+}
+
+.expertise-area .button{
+    margin-top: 70px;
+}
+.expertise-area .button:hover{
+    color:aliceblue;
+}
+.footer-area{
+    background-color: #34156C;
+    color: #fff;
+}
+.single-testimonial .content{
+    color: #fff;
+    font-size: 48px;
+    line-height: 62px;
+    font-style: italic;
+    position: relative;
+}
+.single-testimonial span {
+	font-size: 60px;
+	position: absolute;
+	top: 3px;
+	left: -18px;
+}
+.single-testimonial .designation{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+}
+.contact-area{
+    background-color: #8A48DD;
+}
+.contact-area p{
+    font-size: 18px;
+}
+.contact-info {
+	color: #fff;
+	margin-left: 60px;
+}
+.contact-info .mail a {
+	color: #fff !important;
+	font-size: 20px;
+}
+.contact-info .address{
+    margin-top: 70px;
+}
+
+.contact-info h3 {
+	font-size: 60px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	font-weight: 600;
+}
+.fa.fa-linkedin {
+	color: #34156C;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+    border-radius: 5px;
+}
+.footer-area h3{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 36px;
+}
+.footer-area p{
+    font-size: 18px;
+}
+.para{
+    margin-bottom: 30px;
+}
+.footer-right a {
+	color: #fff;
+}
+
+.privacy h2 {
+	font-size: 60px;
+	line-height: 102px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.privacy .single-about h3 {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+	margin-bottom: 25px;
+}
+.privacy h5 {
+	font-size: 24px;
+	color: white;
+	margin-top: 46px;
+}
+
+
+/* CSS for Slick Slider */
+
+.slick-arrow {
+	background: #3F1886;
+	color: white;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.slick-prev.slick-arrow {
+  left: -70px;
+}
+.slick-next.slick-arrow {
+  right: -70px;
+}
+.slick-dots{
+    display: none !important;
+}
+
+.slick-slide {
+	margin: 0 15px;
+}
